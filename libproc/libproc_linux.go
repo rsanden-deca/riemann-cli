@@ -1,10 +1,10 @@
 package libproc
 
 import (
-    "os"
-    "fmt"
+	"fmt"
+	"os"
 )
 
 func ProcPath(pid int) (string, error) {
-    return os.Readlink(fmt.Sprintf("/proc/%d/exe", pid))
+	return os.Readlink(fmt.Sprintf("/proc/%d/exe", pid))
 }

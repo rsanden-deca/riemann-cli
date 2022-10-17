@@ -1,18 +1,18 @@
 package mocks
 
 import (
-    "github.com/stretchr/testify/mock"
-    "github.com/amir/raidman"
+	"github.com/amir/raidman"
+	"github.com/stretchr/testify/mock"
 )
 
 type MockRiemannClient struct {
-    mock.Mock
+	mock.Mock
 }
 
 func (m *MockRiemannClient) Close() {
-    m.Called()
+	m.Called()
 }
 
 func (m *MockRiemannClient) Send(event *raidman.Event) error {
-    return m.Called(event).Error(0)
+	return m.Called(event).Error(0)
 }

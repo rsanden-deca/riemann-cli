@@ -1,13 +1,13 @@
 package sender_test
 
 import (
-    . "github.com/onsi/ginkgo"
-    . "github.com/onsi/gomega"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 
-    "testing"
+	"testing"
 )
 
 func TestRiemannCli(t *testing.T) {
-    RegisterFailHandler(Fail)
-    RunSpecs(t, "Sender Suite")
+	RegisterFailHandler(Fail)
+	RunSpecs(t, "Sender Suite")
 }
