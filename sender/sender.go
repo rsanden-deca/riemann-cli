@@ -6,9 +6,9 @@ import (
 	"os/user"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/amir/raidman"
 	"github.com/bluestatedigital/riemann-cli/libproc"
+	log "github.com/sirupsen/logrus"
 )
 
 type Sender struct {

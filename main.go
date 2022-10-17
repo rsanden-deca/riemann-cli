@@ -8,8 +8,8 @@ import (
 	"github.com/amir/raidman"
 	riemannSender "github.com/bluestatedigital/riemann-cli/sender"
 
-	log "github.com/Sirupsen/logrus"
 	flags "github.com/jessevdk/go-flags"
+	log "github.com/sirupsen/logrus"
 )
 
 type Options struct {
