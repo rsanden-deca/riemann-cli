@@ -13,7 +13,7 @@ import (
 )
 
 type Options struct {
-	RiemannHost string `env:"RIEMANN_HOST"  long:"riemann-host"                            description:"Riemann host"`
+	RiemannHost string `env:"RIEMANN_HOST"  long:"riemann-host" default:"localhost"        description:"Riemann host"`
 	RiemannPort int    `env:"RIEMANN_PORT"  long:"riemann-port" default:"5555"             description:"Riemann port"`
 	Proto       string `env:"RIEMANN_PROTO" long:"proto"        default:"tcp"              description:"Riemann protocol"`
 	Debug       bool   `env:"DEBUG"         long:"debug"                                   description:"enable debug logging"`
