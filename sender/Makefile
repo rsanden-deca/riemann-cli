@@ -11,4 +11,4 @@ exe: clean
 	go build
 
 test:
-	cd sender && make test
+	go test
