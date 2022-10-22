@@ -24,7 +24,7 @@ All options from `riemann-cli --help`:
     Application Options:
           --riemann-host= Riemann host [$RIEMANN_HOST]
           --riemann-port= Riemann port (5555) [$RIEMANN_PORT]
-          --proto=        Riemann protocol (udp) [$RIEMANN_PROTO]
+          --proto=        Riemann protocol (tcp) [$RIEMANN_PROTO]
           --debug         enable debug logging [$DEBUG]
           --config-file=  .ini config file (/etc/riemann.ini) [$CONFIG_FILE]
     
